@@ -70,6 +70,36 @@
     <Import Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Patalla Principal\Formularios_Menu\Form_Archivar.Designer.vb">
+      <DependentUpon>Form_Archivar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Patalla Principal\Formularios_Menu\Form_Archivar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Patalla Principal\Formularios_Menu\Form_Estadistica.Designer.vb">
+      <DependentUpon>Form_Estadistica.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Patalla Principal\Formularios_Menu\Form_Estadistica.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Patalla Principal\Formularios_Menu\Form_Lista.Designer.vb">
+      <DependentUpon>Form_Lista.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Patalla Principal\Formularios_Menu\Form_Lista.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Patalla Principal\Formularios_Menu\Form_Prestamo.Designer.vb">
+      <DependentUpon>Form_Prestamo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Patalla Principal\Formularios_Menu\Form_Prestamo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Patalla Principal\Formularios_Menu\Form_Reservar.Designer.vb">
+      <DependentUpon>Form_Reservar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Patalla Principal\Formularios_Menu\Form_Reservar.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Patalla Principal\Pantalla_Principal.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -112,6 +142,24 @@
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="Patalla Principal\Formularios_Menu\Form_Archivar.resx">
+      <DependentUpon>Form_Archivar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Patalla Principal\Formularios_Menu\Form_Estadistica.resx">
+      <DependentUpon>Form_Estadistica.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Patalla Principal\Formularios_Menu\Form_Lista.resx">
+      <DependentUpon>Form_Lista.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Patalla Principal\Formularios_Menu\Form_Prestamo.resx">
+      <DependentUpon>Form_Prestamo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Patalla Principal\Formularios_Menu\Form_Reservar.resx">
+      <DependentUpon>Form_Reservar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Patalla Principal\Pantalla_Principal.resx">
+      <DependentUpon>Pantalla_Principal.vb</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <None Include="My Project\Application.myapp">
@@ -123,6 +171,45 @@
       <CustomToolNamespace>My</CustomToolNamespace>
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icono cerrar FN1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icono Maximizar1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icono Minimizar1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icono Restaurar1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-menú-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mobile-Menu-Icon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cfae2360-a1fa-4bbe-9cef-08b9689af0352.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-cabinete-de-archivos-501.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-estante-de-libro-501.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-lista-de-verificación-501.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-reserva-501.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-gráfico-combinado-501.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
